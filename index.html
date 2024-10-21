@@ -36,5 +36,31 @@
             <input type="radio" name="q3" value="4"> 4 <br>
             <input type="radio" name="q3" value="5"> 5 (Strongly Agree) <br>
         </div>
+        <div class="question">
+            <label for="q4">4. My favorite holiday is Easter.</label><br>
+            <input type="radio" name="q4" value="1" required> 1 (Strongly Disagree) <br>
+            <input type="radio" name="q4" value="2"> 2 <br>
+            <input type="radio" name="q4" value="3"> 3 <br>
+            <input type="radio" name="q4" value="4"> 4 <br>
+            <input type="radio" name="q4" value="5"> 5 (Strongly Agree) <br>
+        </div>
+        <div class="question">
+            <label for="q5">5. I would rather sleep than scroll late at night.</label><br>
+            <input type="radio" name="q5" value="1" required> 1 (Strongly Disagree) <br>
+            <input type="radio" name="q5" value="2"> 2 <br>
+            <input type="radio" name="q5" value="3"> 3 <br>
+            <input type="radio" name="q5" value="4"> 4 <br>
+            <input type="radio" name="q5" value="5"> 5 (Strongly Agree) <br>
+        </div>
+
+        <button type="submit">Get Match</button>
+    </form>
+
+    <div id="result" class="hidden">
+        <h1>Your Match Results!</h1>
+        <p id="matchMessage"></p>
+    </div>
+    
+    <script src="matchmaker.js"></script>
 </body>
 </html>
